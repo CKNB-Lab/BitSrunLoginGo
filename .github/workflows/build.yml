@@ -1,9 +1,8 @@
 name: Build
 
 on:
-  push:
-    tags:
-      - v3.**
+  workflow_dispatch:
+
 
 jobs:
   build:
